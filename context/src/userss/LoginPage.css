@@ -1,0 +1,124 @@
+.wraper {
+  display: flex;
+  height: 580px;
+  width: 521px;
+  margin-top: 100px;
+  /* margin-left: 25%; */
+  padding-left: 35px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  background-color: aliceblue;
+  padding-right: 40px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.wraper:hover {
+  transition: 0.8s ease linear;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fileupload {
+  max-width: 200px;
+  max-height: 100px;
+  overflow-x: hidden;
+  overflow: auto;
+}
+.wraper:hover h1 {
+  animation: anima 1.2s ease-in;
+}
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.loginfroms {
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  size: 35px; /* This should be font-size if you're trying to set the font size */
+  font-size: larger;
+  margin-left: 45px;
+}
+
+.spanss {
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+@keyframes anima {
+  0%,
+  100% {
+    transform: translateX(0);
+    transform: scale(1.1);
+   
+    margin-left: 40px;
+  }
+  25% {
+    transform: translateX(-20px);
+    transform: scale(1.2);
+;
+  }
+  28% {
+    transform: translateX(-20px);
+    transform: scale(1.2);
+    margin-left: 150px;
+  }
+  35% {
+    transform: translateX(20px);
+    transform: scale(1.5);
+  }
+  50% {
+    transform: translateX(20px);
+    transform: scale(1.4);
+    margin-left: 0px;
+  }
+  75% {
+    transform: translateX(-20px);
+    transform: scale(1);;
+  }
+  90% {
+    transform: translateX(25px);
+    transform: scale(1.1);
+  }
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.names {
+  margin-top: 10px;
+}
+
+.upload {
+  margin-top: 31px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Targeting a specific div within .wrapper for animation */
+.animated-div {
+  animation: slide-in 0.5s ease-out forwards;
+}

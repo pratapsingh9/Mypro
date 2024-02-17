@@ -1,0 +1,22 @@
+.wraapping{
+    height: 480px;
+    width: 680px;
+    background-color: azure ;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+label{
+    padding-bottom: 10px;
+}

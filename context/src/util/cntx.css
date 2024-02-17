@@ -1,0 +1,24 @@
+.context{
+    height: 135px;
+    width: 50px;
+    background-color: whitesmoke;
+     border-radius: 8px;
+}
+
+body{
+    background-color: black;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.delete{
+    margin-top: 12px;
+}
+
+.edits{
+    
+}

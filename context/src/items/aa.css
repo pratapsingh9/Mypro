@@ -1,0 +1,46 @@
+.div{
+    height: 400px;
+    width: 480px;
+    border-radius: 24px;
+    display: flex;
+    margin-left: 36%;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.buttons{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.username{
+    margin-bottom: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.div:hover h1{
+  animation: springAnimation 0.6s ease-in-out;
+}
+@keyframes springAnimation {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+  }
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
